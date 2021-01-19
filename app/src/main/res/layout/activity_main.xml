@@ -24,14 +24,14 @@
         android:layout_marginTop="84dp"
         android:layout_marginBottom="81dp"
         android:text="Nova Frase"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintBottom_toTopOf="@+id/textoFrase"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textoFrase"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="76dp"
